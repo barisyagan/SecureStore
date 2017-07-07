@@ -11,6 +11,7 @@ Basic Usage:
  Secure store must authenticate all its users via a username and password. When the application is run, it should be asking username and password from the user. If the provided username and password matches with one of the username-password pair in Secure store, authentication succeeds. Otherwise, authentication fails and Secure store ends working.
 
  Help
+ 
 whoami: shows the current user who is using current program.
 
 put [path_on_OS] [file_name]: puts the file at path_on_OS into the system with the given name file_name.
